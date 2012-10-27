@@ -6,7 +6,7 @@ class Theme_Store extends Theme {
     public $author          = 'Lance Miller';
     public $author_website  = 'http://lellimecnar.com/';
     public $website         = 'http://lellimecnar.com/';
-    public $description     = 'An HTML5 base template using SASS, Compass, and jQuery.';
+    public $description     = 'An HTML5 base template using SASS, Compass, Twitter Bootstrap, HTML5Shiv, and jQuery.';
     public $version         = '1.0';
 }
 

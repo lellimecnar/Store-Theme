@@ -1,0 +1,34 @@
+@media print{
+   @import "screen_sizes/_print";
+}
+
+@media only screen and (min-width: $mobile-land){
+   @import "screen_sizes/_mobile-land";
+}
+
+@media only screen and (min-width: $tab-small){
+   @import "screen_sizes/_tab-small";
+}
+
+@media only screen and (min-width: $tab-port){
+   @import "screen_sizes/_tab-port";
+}
+
+@media only screen and (min-width: $tab-land){
+   @import "screen_sizes/_tab-land";
+}
+
+@media only screen and (min-width: $normal){
+   @import "screen_sizes/_normal";
+}
+
+@media only screen and (min-width: $large){
+   @import "screen_sizes/_large";
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+   @import "screen_sizes/_2x";
+}

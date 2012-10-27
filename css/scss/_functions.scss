@@ -1,0 +1,13 @@
+@function burn($color, $amount: 20%) {
+   @if saturation($color) > 0 {
+      $color: saturate($color, (100% - $amount) * 0.4);
+   }
+   @return darken($color, $amount);
+}
+
+@function dodge($color, $amount: 20%) {
+   @if saturation($color) > 0 {
+      $color: desaturate($color, (100% - $amount) * 0.15);
+   }
+   @return lighten($color, $amount);
+}

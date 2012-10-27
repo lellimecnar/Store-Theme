@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="{{ agent:is_ie eq='10' }} ie10{{ /agent:is_ie }}{{ agent:is_ie eq='9' }} ie9{{ /agent:is_ie }}{{ agent:is_ie eq='8' }} ie8{{ /agent:is_ie }}{{ agent:is_ie eq='7' }} ie7{{ /agent:is_ie }}" lang="en">
+	<head>
+		{{ theme:partial name="metadata" }}
+	</head>
+	<body class="{{ url:segments segment='1' }}{{ if page:slug != {url:segments segment='1' } }}{{ page:slug }}{{ endif }}">
+		{{ theme:partial name="update_browser" }}
+		<header>
+			<div class="wrapper">
+				{{ theme:partial name="header" }}
+			</div>
+		</header>
+		{{ session:messages success="alert alert-block alert-success container" notice="alert alert-block alert-info container" error="alert alert-block alert-error container" }}
+		<div role="main" id="content">
+			<div class="wrapper">
+				{{ template:body }}
+			</div>
+		</div>
+		<footer>
+			<div class="wrapper">
+				{{ theme:partial name="footer" }}
+			</div>
+		</footer>
+		{{ theme:partial name="js" }}
+	</body>
+</html>

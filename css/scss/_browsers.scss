@@ -1,0 +1,19 @@
+&.ie{
+    @import "browsers/_ie";
+}
+
+&.ff{
+    @import "browsers/_ff";
+}
+
+&.chrome{
+    @import "browsers/_chrome";
+}
+
+&.safari{
+    @import "browsers/_safari";
+}
+
+&.opera{
+    @import "browsers/_opera";
+}

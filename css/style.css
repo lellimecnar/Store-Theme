@@ -5965,3 +5965,14 @@ a.label:hover, a.badge:hover {
 .invisible {
   visibility: hidden;
 }
+
+/* line 7, scss/_root.scss */
+body .wrapper {
+  padding: 0 8px;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

@@ -5976,3 +5976,34 @@ body .wrapper {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@media only screen and (min-width: 600px) {
+  /* line 3, scss/screen_sizes/_tab-small.scss */
+  body .wrapper {
+    max-width: 600px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 3, scss/screen_sizes/_tab-port.scss */
+  body .wrapper {
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 1045px) {
+  /* line 3, scss/screen_sizes/_tab-land.scss */
+  body .wrapper {
+    max-width: 1045px;
+  }
+}
+@media only screen and (min-width: 1281px) {
+  /* line 3, scss/screen_sizes/_normal.scss */
+  body .wrapper {
+    max-width: 1281px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  /* line 3, scss/screen_sizes/_large.scss */
+  body .wrapper {
+    max-width: 1600px;
+  }
+}

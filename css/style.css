@@ -5993,6 +5993,7 @@ body .wrapper {
   /* line 3, scss/screen_sizes/_tab-land.scss */
   body .wrapper {
     max-width: 1045px;
+    padding: 0;
   }
 }
 @media only screen and (min-width: 1281px) {
